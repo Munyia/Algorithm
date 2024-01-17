@@ -1,0 +1,31 @@
+ALGORITHM checkpoint
+VAR
+   sent:STRING
+   INTEGER:=0;
+   totalWords : INTEGER :=1;
+   totalvowels: INTEGER :=0
+   totalchar:   INTEGER :=1
+BEGIN
+    Read(sent) //"i have a lot to say but you can't hear them because you never listen to me or to my silences."
+    WHILE (sent{counter} <> ".") DO
+        counter:=counter+1
+        IF (sent{conter}=" ") THEN
+            totalWords:=totalWords+1
+        END_IF
+        totalchar:=counter +
+    END_WHILE
+    
+    SWITCH (sent{counter}) DO
+    case "a" :
+    case "e" :
+    case "i" :
+    case "o" :
+    case "u" :
+    case value : totalvowels:+totalvowels+
+    default : set_instructions
+  END_IF
+    Write(word)
+    Write(vowels)
+    Write(Char)
+END_SWITCH
+END
