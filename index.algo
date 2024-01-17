@@ -14,7 +14,7 @@ BEGIN
         END_IF
         totalchar:=counter +
     END_WHILE
-    
+      Read(sent) //"i have a lot to say but you can't hear them because you never listen to me or to my silences."
     SWITCH (sent{counter}) DO
     case "a" :
     case "e" :
