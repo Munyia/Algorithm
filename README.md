@@ -26,8 +26,11 @@ This algorithm reads a sentence, counts the number of words, vowels, and charact
 3. Continue until the end of the sentence is reached.
 4. Display the total word count, total vowel count, and total character count.
 
-## Example Usage
 
 ```plaintext
 Read(sent) // Example Input: "i have a lot to say but you can't hear them because you never listen to me or to my silences."
 CharacterWordVowelCount(sent)
+
+Total Words: 28
+Total Vowels: 42
+Total Characters: 102
